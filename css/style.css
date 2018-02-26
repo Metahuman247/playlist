@@ -1,1 +1,25 @@
-
+body{
+    background-color:black;
+}
+h1{
+    color:red;
+    font-family:Comic sans ms;
+    text-align:center;
+    border:solid;
+    border-radius:30px;
+}
+input{
+    font-family:comic sans ms;
+     border-radius:50px;
+}
+button{
+    font-family:comic sans ms;
+    font-size:15px;
+}
+h3{
+    color:red;
+}
+a{
+    color:white;
+    font-size:20px;
+}

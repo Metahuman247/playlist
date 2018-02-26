@@ -49,11 +49,14 @@ var myPlayList = [
 
 // DOCUMENT READY FUNCTION
 $( document ).ready(function() {
-  
-
-
-
+	for(var i=0; i<myPlayList.length; i++){
+		var song = myPlayList[i];
+		$('body').append('<figure> <img src="'+song['image-url']+'" /></figure>'); 
+		$('body').append("<figcaption> <h3> " +song['artist']+ "</h3> </figcaption>")
+		$('body').append('<a href="'+song['mp3-url']+'">Listen</a>');
+	}
 });
+
 
 function displayList(){
 
