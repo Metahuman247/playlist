@@ -1,5 +1,6 @@
 body{
     background-color:black;
+    text-align: center;
 }
 h1{
     color:red;
@@ -22,4 +23,8 @@ h3{
 a{
     color:white;
     font-size:20px;
+}
+img{
+    height:300px;
+    width:300px;
 }
